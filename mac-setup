@@ -95,28 +95,28 @@ brew update
 brew bundle --file=- <<EOF
 tap "thoughtbot/formulae"
 tap "homebrew/services"
-tap "universal-ctags/universal-ctags"
 tap "heroku/brew"
 
-# Unix
-brew "universal-ctags", args: ["HEAD"]
-brew "git"
-
 # Clari Dev Tools
+brew "git"
 cask "postman"
 cask "intellij-idea"
 cask 'studio-3t'
 cask "corretto"
+cask "iterm2"
 brew "docker"
 brew "awscli"
 brew "gradle"
 brew "asdf"
-brew "shellcheck"
+# Uncomment fioror fish shell
 
-# Heroku
-brew "parity"
+#tap "bbatsche/fisher"
 
-# GitHub
+#tap "bbatsche/fisher"
+#brew "fish"
+#brew "fisherman"
+
+# GitHub CLI
 brew "gh"
 
 # Programming language prerequisites and package managers
@@ -130,6 +130,7 @@ brew "postgres", restart_service: :changed
 brew "redis", restart_service: :changed
 EOF
 
+fisher omf/theme-clearance
 
 alias install_asdf_plugin=add_or_update_asdf_plugin
 add_or_update_asdf_plugin() {
