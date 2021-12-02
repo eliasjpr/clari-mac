@@ -50,7 +50,7 @@ brew "docker"
 brew "awscli"
 brew "gradle"
 brew "asdf"
-
+brew "vault"
 # Uncomment for fish shell
 # tap "bbatsche/fisher"
 # brew "fish"
