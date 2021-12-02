@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Welcome to the thoughtbot laptop script!
+# Welcome to the Clari laptop script!
 # Be prepared to turn your laptop (or desktop, no haters here)
 # into an awesome development machine.
 
@@ -103,28 +103,21 @@ brew "universal-ctags", args: ["HEAD"]
 brew "git"
 
 # Clari Dev Tools
-brew install git
-brew install --cask postman
-brew install --cask intellij-idea
-brew install --cask studio-3t
-brew install docker
-brew install awscli
-brew install gradle
-brew install asdf
-
-# AWS Corretto JDK
-brew install --cask corretto
-
-brew install shellcheck
+cask "postman"
+cask "intellij-idea"
+cask 'studio-3t'
+cask "corretto"
+brew "docker"
+brew "awscli"
+brew "gradle"
+brew "asdf"
+brew "shellcheck"
 
 # Heroku
 brew "parity"
 
 # GitHub
 brew "gh"
-
-# Image manipulation
-brew "imagemagick"
 
 # Programming language prerequisites and package managers
 brew "libyaml" # should come after openssl
