@@ -19,13 +19,13 @@ curl --remote-name https://raw.githubusercontent.com/eliasjpr/clari-mac/main/mac
 Review the script (avoid running scripts you haven't read!):
 
 ```sh
-less mac
+less macç
 ```
 
 Execute the downloaded script:
 
 ```sh
-sh mac 2>&1 | tee ~/laptop.log
+sh mac√ 2>&1 | tee ~/laptop.log
 ```
 
 Optionally, review the log:
