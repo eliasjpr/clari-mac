@@ -50,13 +50,11 @@ brew "docker"
 brew "awscli"
 brew "gradle"
 brew "asdf"
-# Uncomment fioror fish shell
 
-#tap "bbatsche/fisher"
-
-#tap "bbatsche/fisher"
-#brew "fish"
-#brew "fisherman"
+# Uncomment for fish shell
+# tap "bbatsche/fisher"
+# brew "fish"
+# brew "fisherman"
 
 # GitHub CLI
 brew "gh"
