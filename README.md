@@ -13,7 +13,7 @@ Install
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/eliasjpr/clari-mac/main/mac-setup
 ```
 
 Review the script (avoid running scripts you haven't read!):
